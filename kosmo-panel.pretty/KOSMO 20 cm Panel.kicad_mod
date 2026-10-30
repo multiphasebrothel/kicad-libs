@@ -1,0 +1,203 @@
+(footprint "KOSMO 20 cm Panel"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 100 -1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "839e5ed5-125a-4035-bdff-9848ed77deeb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "KOSMO 20 cm Panel"
+		(at 100 -3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "73fd88db-3a2c-471c-909d-d85496982c6d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8abb2ff1-0b0a-4543-983f-45646e987fe4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "81a3cf91-f3fa-4505-b838-4741edf82552")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only)
+	(fp_line
+		(start 0 10)
+		(end 200 10)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "829cc323-d079-4c87-8e12-a036a4ce807a")
+	)
+	(fp_line
+		(start 0 190)
+		(end 200 190)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "77cf5730-1532-47b9-9fe6-921146ce8f28")
+	)
+	(fp_line
+		(start 0 3)
+		(end 0 197)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0309d396-fb13-473e-a6e2-8ff7b8b63190")
+	)
+	(fp_line
+		(start 3 0)
+		(end 197 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8785eb7e-f497-42a9-a57d-6bf6b1c40f7a")
+	)
+	(fp_line
+		(start 3 200)
+		(end 197 200)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "dc239f0c-69d8-4d1a-8e5b-7b0fc25b76cb")
+	)
+	(fp_line
+		(start 200 3)
+		(end 200 197)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ad0e42e9-2bd6-445d-8eb9-73606ed3d9ee")
+	)
+	(fp_arc
+		(start 0 3)
+		(mid 0.87868 0.87868)
+		(end 3 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "207e91fe-731e-4b89-b755-47f7c1bb85f4")
+	)
+	(fp_arc
+		(start 3 200)
+		(mid 0.87868 199.12132)
+		(end 0 197)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "2e7309a0-b072-4df9-beeb-bae626199bea")
+	)
+	(fp_arc
+		(start 197 0)
+		(mid 199.12132 0.87868)
+		(end 200 3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "850c9a06-dbba-46e7-bb42-7d2711e39f47")
+	)
+	(fp_arc
+		(start 200 197)
+		(mid 199.12132 199.12132)
+		(end 197 200)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5d485cd0-dbeb-4940-b32c-873de66ca591")
+	)
+	(fp_text user "KOSMO 20 CM"
+		(at 100 203 0)
+		(layer "Cmts.User")
+		(uuid "3af5c794-7069-41a7-9a3b-d1ab754e3a8a")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" thru_hole circle
+		(at 5 3)
+		(size 5 5)
+		(drill 4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3f1aaa2d-0f08-41ff-9b7a-319ef469aea6")
+	)
+	(pad "" thru_hole circle
+		(at 5 197)
+		(size 5 5)
+		(drill 4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "60eecce9-36cf-4ef8-8fd3-4c3ebf25d7fd")
+	)
+	(pad "" thru_hole circle
+		(at 195 3)
+		(size 5 5)
+		(drill 4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b9d6a512-c0f1-42c2-8d8c-d22c70edc2d2")
+	)
+	(pad "" thru_hole circle
+		(at 195 197)
+		(size 5 5)
+		(drill 4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "446a26d1-59c4-4fc9-9d5b-bd2632036f2e")
+	)
+	(embedded_fonts no)
+)
